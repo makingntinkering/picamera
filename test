@@ -12,7 +12,6 @@ GPIO.setup(18, GPIO.IN)
 
 try:
     while True :
-        GPIO.input(18) == GPIO.LOW
         start = time.time()
     
         # read input
